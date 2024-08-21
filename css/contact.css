@@ -1,0 +1,134 @@
+body {
+  background-color: #111;
+  overflow: hidden;
+}
+
+/* NAV START */
+
+.imgDiv5 {
+  background-color: #ffb400;
+}
+
+.imgDiv1 {
+  background-color: #2b2a2a;
+}
+
+/* NAV END */
+
+/* HEADER START */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  height: 10rem;
+
+  font-size: 4rem;
+}
+
+span {
+  color: #ffb400;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.contactMain {
+  display: flex;
+  flex-direction: row;
+
+  /* border-style: solid; */
+
+  height: 50vh;
+}
+
+.leftContact {
+  flex: 1 1 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mailMe,
+.mobile,
+.linkedin,
+.gitHub {
+  padding-left: 30%;
+}
+
+.mailMe,
+.mobile,
+.linkedin,
+.gitHub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ContactImageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.ContactImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.leftContact a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  text-transform: none;
+}
+
+.formContact {
+  flex: 1 1 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textarea {
+  background-color: #2b2a2a;
+}
+
+.buttonInsideForm {
+  font-size: 2rem;
+
+  width: fit-content;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: white;
+  background-color: #2b2a2a;
+  transition: 1s ease-in;
+}
+
+.buttonInsideForm:hover {
+  background-color: #ffb400;
+}
+
+form>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN END */

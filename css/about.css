@@ -1,0 +1,347 @@
+/* NAV START */
+
+.imgDiv2 {
+  background-color: #ffb400;
+}
+
+.imgDiv1 {
+  background-color: #2b2a2a;
+}
+
+/* NAV END */
+
+
+/* HEADER START */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  height: 10rem;
+
+  font-size: 4rem;
+}
+
+span {
+  color: #ffb400;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.smallBorder {
+  display: block;
+  border-bottom: 2px solid #252525;
+  width: 50%;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* Control the border's length */
+}
+
+.aboutMain {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PERSONAL INFO START */
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  min-height: 20rem;
+}
+
+.personalInfo a {
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  font-size: 2rem;
+  min-height: 15rem;
+
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left div span,
+.right div span {
+  opacity: 0.7;
+  color: white
+}
+
+.resume {
+  width: 22rem;
+
+  font-size: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  transition: 1s ease-in;
+  border-color: #ffb400;
+  border-style: solid;
+  border-radius: 2.5rem;
+
+  margin-top: 2.5rem;
+}
+
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.resume:hover {
+  background-color: #ffb400;
+}
+
+.resumeText {
+  padding-left: 1.2rem;
+}
+
+.resumeLogo {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border-radius: 50%;
+  border-color: transparent;
+  border-style: solid;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2b2a2a;
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border-radius: 50%;
+  border-color: transparent;
+  border-style: solid;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffb400;
+}
+
+/* PERSONAL INFO END */
+
+
+
+
+/* SKILLS START */
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  min-height: 20rem;
+}
+
+.skillsHeading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsBottom {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* height: 40rem; */
+}
+
+.technicalSkills {
+  display: flex;
+  flex-direction: column;
+}
+
+.technicalSkillsText {
+  padding: 1.5rem 0;
+
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.languages>div {
+  margin: 30px;
+}
+
+.languageBox {
+  border-style: solid;
+  border-color: #ffb400;
+  padding: 1.5rem;
+
+  height: 7rem;
+  width: 7rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.languageImage {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* SKILLS END */
+
+
+
+
+
+
+/* Education And Experience START */
+
+.educationAndExperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.educationAndExperienceHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+  margin-bottom: 60px;
+}
+
+.flexeducationAndExperience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  flex: 1 1 65%;
+}
+
+.education {
+  flex: 1 1 35%;
+}
+
+.EducationAndExperienceImageDiv {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  border-radius: 50%;
+  border-style: solid;
+  border-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.55rem;
+  background-color: #ffb400;
+
+  position: relative;
+  z-index: 1;
+}
+
+.EducationAndExperienceImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.desc>div {
+  margin-bottom: 1rem;
+}
+
+.duration {
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: transparent;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  opacity: 0.8;
+  color: white;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 1.4rem;
+  bottom: 0.7rem;
+  border-left: 1px solid #333;
+  z-index: 0;
+}
+
+/* Education And Experience END */

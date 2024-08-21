@@ -1,0 +1,163 @@
+body {
+  background-color: #111;
+}
+
+/* NAV START */
+
+.imgDiv3 {
+  background-color: #ffb400;
+}
+
+.imgDiv1 {
+  background-color: #2b2a2a;
+}
+
+/* NAV END */
+
+/* HEADER START */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  height: 10rem;
+
+  font-size: 4rem;
+}
+
+span {
+  color: #ffb400;
+}
+
+/* HEADER END */
+
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+
+  border-radius: 2rem;
+  border-bottom: 0.5rem solid #ffb400;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  border-left: none;
+  border-top-color: transparent;
+  border-top-style: none;
+  border-top-width: 0;
+}
+
+.imageDiv img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.projectName {
+  color: #ffb400;
+  font-size: 1.5rem;
+}
+
+.nameAndGit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  padding: 1.5rem;
+}
+
+.githubImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.gitHub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 1.2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+
+  min-width: 7rem;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  transition: 1s ease-in-out;
+  position: relative;
+  z-index: 101;
+  /* larger than nav whihc is 100 */
+}
+
+.projectGrid a {
+  text-decoration: none;
+}
+
+.gitHubText {
+  padding-left: 1.3rem;
+}
+
+.projectGrid a {
+  color: white;
+}
+
+.gitHub:hover {
+  background-color: #ffb400;
+}
+
+
+
+.projectsMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projectGrid {
+  flex: 1 1 30%;
+  margin: 30px;
+  background-color: #252525;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: transparent;
+}
+
+
+.projectDescription {
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.techStackImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+
+}

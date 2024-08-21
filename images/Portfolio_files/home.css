@@ -1,0 +1,215 @@
+body {
+  background-color: #212529;
+  color: white;
+  margin: 6rem;
+  transition: transform 0.3s ease-in-out;
+  /* position: relative; */
+}
+
+/* NAV START */
+
+nav>div:nth-of-type(1) .imgDiv {
+  background-color: #ffb400;
+}
+
+nav {
+  position: fixed;
+  right: 2rem;
+  top: 10rem;
+  bottom: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: transparent;
+
+  z-index: 10000000;
+}
+
+.divd1,
+.divd2,
+.divd3,
+.divd4,
+.divd5 {
+  width: 13rem;
+
+  font-size: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  transition: 1s ease-out;
+
+  color: rgba(255, 255, 255, 0);
+
+  margin-bottom: 2rem;
+}
+
+.divd5 {
+  margin-bottom: none;
+}
+
+.divd1:hover,
+.divd2:hover,
+.divd3:hover,
+.divd4:hover,
+.divd5:hover {
+  color: rgba(255, 255, 255, 1);
+
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: transparent;
+
+  background-color: #ffb400;
+}
+
+
+.divd1:hover {
+  padding-left: 4rem;
+}
+
+.divd2:hover {
+  padding-left: 2.5rem;
+}
+
+.divd3:hover {
+  padding-left: 2.5rem;
+}
+
+.divd4:hover {
+  padding-left: 1.5rem;
+}
+
+.divd5:hover {
+  padding-left: 1rem;
+}
+
+.imgDiv {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border-radius: 50%;
+  border-color: transparent;
+  border-style: solid;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2b2a2a;
+}
+
+.homeImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* NAV END */
+
+/* MAIN START */
+
+main {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+/* PROFILE PIC START*/
+
+.profilePic {
+  position: absolute;
+  top: 3rem;
+  bottom: 3rem;
+  left: 2.5rem;
+  right: 65%;
+
+  border-radius: 2.5rem;
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  /* add shadow */
+
+  min-height: 30rem;
+
+  overflow: hidden;
+}
+
+.profilePic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 2.5rem;
+
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.5);
+
+}
+
+/* PROFILE PIC END*/
+
+
+
+/* CONTENT START */
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  right: 10rem;
+
+  /* border-style: solid;
+  border-color: white; */
+}
+
+.name {
+  color: #ffb400;
+  font-size: 4rem;
+  padding-left: 2.5rem;
+}
+
+.software {
+  font-size: 3rem;
+  padding-left: 7.3rem;
+}
+
+.desc {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  white-space: collapse balance;
+  padding-left: 2.8rem;
+  position: relative;
+}
+
+/* CONTENT END */
+
+/* MAIN START */
+
+/* YELLOW BACKGROUND START */
+
+.yellow {
+  position: fixed;
+  top: -15rem;
+  bottom: 0;
+  left: -30rem;
+
+  /* width: 0;
+  height: 0; */
+
+  border-top: 0;
+  border-right: 30rem solid transparent;
+  border-left: 30rem solid transparent;
+  border-bottom: 80rem solid #ffb400;
+
+  /* You May use tranform */
+}
+
+/* YELLOW BACKGROUND START */
