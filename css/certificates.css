@@ -51,6 +51,11 @@ span {
   position: relative;
 }
 
+.certificate1 span {
+  /* opacity: 0.5; */
+  /* color: #2b2a2a; */
+}
+
 .leftCertificate {
   flex: 1 1 15%;
 

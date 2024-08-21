@@ -40,8 +40,9 @@ span {
   flex-direction: row;
 
   /* border-style: solid; */
+  margin-right: 5rem;
 
-  height: 50vh;
+  height: 65vh;
 }
 
 .leftContact {
@@ -99,11 +100,12 @@ span {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .textarea {
   background-color: #2b2a2a;
+  color: white;
 }
 
 .buttonInsideForm {
